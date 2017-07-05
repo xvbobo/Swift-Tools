@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A02E7421EF112400094226B /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02E7401EF112400094226B /* VideoViewController.swift */; };
+		9A02E7461EF113000094226B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02E7451EF113000094226B /* BaseViewController.swift */; };
+		9A02E7481EF116F90094226B /* VideoRecoderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02E7471EF116F90094226B /* VideoRecoderViewController.swift */; };
+		9A02E74B1EF119AF0094226B /* CycleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02E74A1EF119AF0094226B /* CycleProgressView.swift */; };
+		9A153B3F1EFA613300E23D22 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A153B3E1EFA613300E23D22 /* PhotoCollectionViewCell.swift */; };
+		9A1919D51EF37B5E002997AC /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1919D41EF37B5E002997AC /* PhotoListViewController.swift */; };
+		9A5D8A821F0CC76B0015057C /* AblumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D8A801F0CC76B0015057C /* AblumViewController.swift */; };
+		9A5D8A831F0CC76B0015057C /* AblumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5D8A811F0CC76B0015057C /* AblumViewController.xib */; };
+		9A5D8A851F0CC7F40015057C /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5D8A841F0CC7F40015057C /* PhotoDetailViewController.swift */; };
+		9A95F8751EEFD2AE001B1FD9 /* RecordMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95F8741EEFD2AE001B1FD9 /* RecordMusicViewController.swift */; };
+		9A95F8771EEFDDE6001B1FD9 /* RecordMusiceTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95F8761EEFDDE6001B1FD9 /* RecordMusiceTool.swift */; };
 		9AE956051EE4FCEF00B2DA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE956041EE4FCEF00B2DA6B /* AppDelegate.swift */; };
 		9AE956071EE4FCEF00B2DA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE956061EE4FCEF00B2DA6B /* ViewController.swift */; };
 		9AE9560A1EE4FCEF00B2DA6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE956081EE4FCEF00B2DA6B /* Main.storyboard */; };
 		9AE9560C1EE4FCEF00B2DA6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE9560B1EE4FCEF00B2DA6B /* Assets.xcassets */; };
 		9AE9560F1EE4FCEF00B2DA6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE9560D1EE4FCEF00B2DA6B /* LaunchScreen.storyboard */; };
+		9AE956171EE4FF6800B2DA6B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE956161EE4FF6800B2DA6B /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A02E7401EF112400094226B /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		9A02E7451EF113000094226B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9A02E7471EF116F90094226B /* VideoRecoderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRecoderViewController.swift; sourceTree = "<group>"; };
+		9A02E74A1EF119AF0094226B /* CycleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleProgressView.swift; sourceTree = "<group>"; };
+		9A153B3E1EFA613300E23D22 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		9A1919D41EF37B5E002997AC /* PhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
+		9A5D8A801F0CC76B0015057C /* AblumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AblumViewController.swift; sourceTree = "<group>"; };
+		9A5D8A811F0CC76B0015057C /* AblumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AblumViewController.xib; sourceTree = "<group>"; };
+		9A5D8A841F0CC7F40015057C /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		9A95F8741EEFD2AE001B1FD9 /* RecordMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordMusicViewController.swift; sourceTree = "<group>"; };
+		9A95F8761EEFDDE6001B1FD9 /* RecordMusiceTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordMusiceTool.swift; sourceTree = "<group>"; };
 		9AE956011EE4FCEF00B2DA6B /* Swift-Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE956041EE4FCEF00B2DA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AE956061EE4FCEF00B2DA6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,7 @@
 		9AE9560B1EE4FCEF00B2DA6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AE9560E1EE4FCEF00B2DA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AE956101EE4FCEF00B2DA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE956161EE4FF6800B2DA6B /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A02E73F1EF111F60094226B /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				9A02E7401EF112400094226B /* VideoViewController.swift */,
+				9A02E7471EF116F90094226B /* VideoRecoderViewController.swift */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		9A02E7441EF112E70094226B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9A02E7451EF113000094226B /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9A02E7491EF1196A0094226B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A02E74A1EF119AF0094226B /* CycleProgressView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9A1919D31EF37B3E002997AC /* PhotosList */ = {
+			isa = PBXGroup;
+			children = (
+				9A5D8A841F0CC7F40015057C /* PhotoDetailViewController.swift */,
+				9A1919D41EF37B5E002997AC /* PhotoListViewController.swift */,
+				9A153B3E1EFA613300E23D22 /* PhotoCollectionViewCell.swift */,
+				9A5D8A801F0CC76B0015057C /* AblumViewController.swift */,
+				9A5D8A811F0CC76B0015057C /* AblumViewController.xib */,
+			);
+			name = PhotosList;
+			sourceTree = "<group>";
+		};
 		9AE955F81EE4FCEF00B2DA6B = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +115,15 @@
 		9AE956031EE4FCEF00B2DA6B /* Swift-Tools */ = {
 			isa = PBXGroup;
 			children = (
+				9A1919D31EF37B3E002997AC /* PhotosList */,
+				9A02E7491EF1196A0094226B /* Views */,
+				9A02E7441EF112E70094226B /* Base */,
+				9A02E73F1EF111F60094226B /* Video */,
 				9AE956041EE4FCEF00B2DA6B /* AppDelegate.swift */,
 				9AE956061EE4FCEF00B2DA6B /* ViewController.swift */,
+				9AE956161EE4FF6800B2DA6B /* FirstViewController.swift */,
+				9A95F8741EEFD2AE001B1FD9 /* RecordMusicViewController.swift */,
+				9A95F8761EEFDDE6001B1FD9 /* RecordMusiceTool.swift */,
 				9AE956081EE4FCEF00B2DA6B /* Main.storyboard */,
 				9AE9560B1EE4FCEF00B2DA6B /* Assets.xcassets */,
 				9AE9560D1EE4FCEF00B2DA6B /* LaunchScreen.storyboard */,
@@ -124,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5D8A831F0CC76B0015057C /* AblumViewController.xib in Resources */,
 				9AE9560F1EE4FCEF00B2DA6B /* LaunchScreen.storyboard in Resources */,
 				9AE9560C1EE4FCEF00B2DA6B /* Assets.xcassets in Resources */,
 				9AE9560A1EE4FCEF00B2DA6B /* Main.storyboard in Resources */,
@@ -137,7 +206,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE956171EE4FF6800B2DA6B /* FirstViewController.swift in Sources */,
+				9A95F8751EEFD2AE001B1FD9 /* RecordMusicViewController.swift in Sources */,
+				9A02E7481EF116F90094226B /* VideoRecoderViewController.swift in Sources */,
+				9A02E7421EF112400094226B /* VideoViewController.swift in Sources */,
+				9A5D8A821F0CC76B0015057C /* AblumViewController.swift in Sources */,
+				9A5D8A851F0CC7F40015057C /* PhotoDetailViewController.swift in Sources */,
+				9A95F8771EEFDDE6001B1FD9 /* RecordMusiceTool.swift in Sources */,
+				9A1919D51EF37B5E002997AC /* PhotoListViewController.swift in Sources */,
+				9A02E74B1EF119AF0094226B /* CycleProgressView.swift in Sources */,
 				9AE956071EE4FCEF00B2DA6B /* ViewController.swift in Sources */,
+				9A02E7461EF113000094226B /* BaseViewController.swift in Sources */,
+				9A153B3F1EFA613300E23D22 /* PhotoCollectionViewCell.swift in Sources */,
 				9AE956051EE4FCEF00B2DA6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +382,7 @@
 				9AE956151EE4FCEF00B2DA6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
