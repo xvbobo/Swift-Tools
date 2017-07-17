@@ -19,8 +19,8 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         myTableView.dataSource = self
         myTableView.delegate = self
         myTableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: "cell")
-        dataSource = ["3D旋转","录音","视频"]
-        dataViewControllers = [FirstViewController(),RecordMusicViewController(),VideoViewController()]
+        dataSource = ["3D旋转","录音","朋友圈","视频播放"]
+        dataViewControllers = [FirstViewController(),RecordMusicViewController(),VideoViewController(),VideoPlayerViewController()]
         self.view.addSubview(myTableView)
         // Do any additional setup after loading the view, typically from a nib.
     }

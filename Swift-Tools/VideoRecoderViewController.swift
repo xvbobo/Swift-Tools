@@ -17,7 +17,7 @@ class VideoRecoderViewController: UIViewController,CycleProgressViewDelegate {
     let screenW = UIScreen.main.bounds.size.width
     let screenH = UIScreen.main.bounds.size.height
     let buttonW = 80
-
+    var videoRecoderView : VideoRecoderView!
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
@@ -26,6 +26,9 @@ class VideoRecoderViewController: UIViewController,CycleProgressViewDelegate {
     }
     
     func createUI() {
+        
+        videoRecoderView = VideoRecoderView.init(frame: CGRect.init(x: 0, y:0, width: screenW, height: screenH))
+        videoRecoderView.backgroundColor = .gray
         
         photoBtn.frame = CGRect(x: (Int(UIScreen.main.bounds.size.width) - buttonW)/2, y: Int(UIScreen.main.bounds.size.height) - buttonW - 50, width: buttonW, height: buttonW)
         photoBtn.layer.masksToBounds = true
@@ -47,11 +50,14 @@ class VideoRecoderViewController: UIViewController,CycleProgressViewDelegate {
         sureBtn.addTarget(self, action: #selector(sureBtnClick), for: .touchUpInside)
 
         view.addSubview(cancleBtn)
+        
+        view.insertSubview(videoRecoderView, belowSubview: photoBtn)
 
     }
     
     func endbuttonLongProgress() {
         updateUI()
+        videoRecoderView.stopRecording()
 //        let alertViewController = UIAlertController.init(title: "录制时间到", message: "", preferredStyle: .alert)
 //        let sureBtn = UIAlertAction.init(title: "好", style: .default, handler: { (action) in
 //            print("确定")
@@ -61,6 +67,7 @@ class VideoRecoderViewController: UIViewController,CycleProgressViewDelegate {
     }
     
     func beganButtonLongProgress() {
+        videoRecoderView.beginRecording()
         sureBtn.isHidden = true
         cancleBtn.isHidden = true
     }
